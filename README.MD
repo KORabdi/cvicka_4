@@ -57,7 +57,7 @@ Navrhněte servis kol. Servis příjmá různá kola a může mít různé speci
 Nyní zkusme zakomponovat do metody main tyto servisy a předejme jim kola.
 
 PZN: Výsledek našeho testu je nasledujicí, v úkolu č.3 řešíme jak to vyřešít
-![poznamka k ukolu čislo 2]https://github.com/KORabdi/cvicka_4/blob/master/ukol2pzn.png?raw=true
+![poznamka k ukolu čislo 2](https://github.com/KORabdi/cvicka_4/blob/master/ukol2pzn.png?raw=true)
 
 #Úkol 3. - Život není snadný, ale nevzdávejme se
 
