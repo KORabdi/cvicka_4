@@ -1,5 +1,7 @@
 package cz.cvut.fel.objects;
 
+import cz.cvut.fel.services.BasicService;
+
 public class Bicycle {
 	protected int cadence;
 	protected int gear;
@@ -34,9 +36,8 @@ public class Bicycle {
 		this.speed = speed;
 	}
 	
-	//ukol 2
-	@Override
-	public String toString(){
-		return ("Bike is in gear "+this.gear+" with a cadence of "+this.cadence+" and travelling at a speed of "+this.speed+".\n");
+	//ukol 3
+	public void visit(BasicService bs){
+		bs.accept(this);
 	}
 }
