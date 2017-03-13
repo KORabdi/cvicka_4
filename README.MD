@@ -69,6 +69,7 @@ Jak na to? Znovu pro pořádek:
 
 1. zavoláme bike.printDescription(); a správně se zavolá virtuální metoda z MountainBike
 2. zavoláme na mountainBikeService.accept(bike) a compiler si myslí, že má Bicycle.
+
 Co tedy s tím? Spojme to a udělejme double dispatch. Přidejme metodu visit(BasicService bs) do každého typu kola! Každý typ kola pak zavolá v metodě visit bs.accept(this);. Zopakujme si to:
 
 1. Zavoláme bike.visit(mountainBikeService) - to zavolá virtuální metodu visit na MountainBike - nic nového.
