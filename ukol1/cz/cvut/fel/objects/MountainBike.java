@@ -22,4 +22,10 @@ public class MountainBike extends Bicycle {
 	public void printDescription(){
 		System.out.print("Bike is in gear "+this.gear+" with a cadence of "+this.cadence+" and travelling at a speed of "+this.speed+" and suspension is "+this.suspension+".\n");
 	}
+	
+	//ukol 2
+	@Override
+	public String toString(){
+		return ("Bike is in gear "+this.gear+" with a cadence of "+this.cadence+" and travelling at a speed of "+this.speed+" and suspension is "+this.suspension+".\n");
+	}
 }

@@ -4,6 +4,6 @@ import cz.cvut.fel.objects.Bicycle;
 
 public class BasicService {
 	public void accept(Bicycle bike){
-		System.out.print("fixing"+bike);
+		System.out.print("fixing "+bike);
 	}
 }

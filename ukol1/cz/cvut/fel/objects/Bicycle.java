@@ -14,6 +14,7 @@ public class Bicycle {
 	public void printDescription(){
 		System.out.print("Bike is in gear "+this.gear+" with a cadence of "+this.cadence+" and travelling at a speed of "+this.speed+".\n");
 	}
+
 	public int getGear() {
 		return gear;
 	}
@@ -31,5 +32,11 @@ public class Bicycle {
 	}
 	public void setSpeed(int speed) {
 		this.speed = speed;
+	}
+	
+	//ukol 2
+	@Override
+	public String toString(){
+		return ("Bike is in gear "+this.gear+" with a cadence of "+this.cadence+" and travelling at a speed of "+this.speed+".\n");
 	}
 }
