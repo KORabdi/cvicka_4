@@ -8,7 +8,7 @@ Vytvořte projekt, který bude obsahovat následující třídy:
 ..* private int cadence;
 ..* private int gear;
 ..* private int speed;
-..* public void printDescription(){}, která vypíše informace o kolu ve tvaru:
+..* public void printDescription(){}, která vypíše informace o kolu ve tvaru: 
 ```
 Bike is in gear 1 with a cadence of 20 and travelling at a speed of 10. 
 ```
